@@ -1,4 +1,6 @@
 x=int(input())
 y=int(input())
-z=x+y
-print(z)
+temp=x
+x=y
+y=temp
+print(x,y)
